@@ -13,9 +13,17 @@
  */
 
 /*!
- * Vue.js v2.6.11
- * (c) 2014-2019 Evan You
+ * Vue.js v2.6.12
+ * (c) 2014-2020 Evan You
  * Released under the MIT License.
+ */
+
+/*!
+ * circletype 2.3.0
+ * A JavaScript library that lets you curve type on the web.
+ * Copyright © 2014-2018 Peter Hrynkow
+ * Licensed MIT
+ * https://github.com/peterhry/CircleType#readme
  */
 
 /*!
@@ -28,6 +36,12 @@
  * vue-no-ssr v1.1.1
  * (c) 2018-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
+ */
+
+/*!
+ * vuex v3.5.1
+ * (c) 2020 Evan You
+ * @license MIT
  */
 
 /*! 
