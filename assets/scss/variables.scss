@@ -1,0 +1,40 @@
+// Variables
+
+// Gray and Brand Colors for use across theme
+
+$theme-primary:    #fdcc52;
+$theme-secondary:  #064c57; // #7b4397;
+$theme-tertiary:   #068c95; // #dc2430
+$theme-4:          #3a93ae;
+
+$gray-base:        #000;
+$gray-darker:      lighten($gray-base, 13.5%); // #222
+$gray-dark:        lighten($gray-base, 20%);   // #333
+$gray:             lighten($gray-base, 33.5%); // #555
+$gray-light:       lighten($gray-base, 46.7%); // #777
+$gray-lighter:     lighten($gray-base, 93.5%); // #eee
+
+
+// All of your custom SCSS variables go first
+$primary:       #7D61C8 ;
+$secondary:     #ffffff ;
+$light:         #f1f1f1 ;
+$dark:          #000000 ;//then bootstrap & bootstrap-vue should be added after 
+//so that they inherit the custom SCSS variables
+// @import 'bootstrap/scss/bootstrap.scss';
+// @import 'bootstrap-vue/src/index.scss';
+
+@font-face {
+    font-family: Lobster;
+    src: url("~assets/fonts/lobster.otf") format("opentype");
+  }
+
+@font-face {
+  font-family: 'Muli';
+  src: url("~assets/fonts/Muli-Italic.ttf")
+}
+
+@font-face {
+  font-family: 'HelloSanttiny';
+  src: url("~assets/fonts/HelloSanttiny.ttf")
+}

@@ -1,0 +1,29 @@
+// Mixins
+@mixin transition-all() {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+@mixin heading-font {
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+@mixin body-font {
+    font-family: Muli;
+    font-style: italic; 
+    font-variant: normal; 
+    font-weight: 700;
+    font-size: 10px;
+}
+
+@mixin alt-font {
+    font-family: Muli;
+    // font-style: italic;
+    letter-spacing: 2px;
+    // font-weight: 700;
+    text-transform: uppercase;
+}
